@@ -1,7 +1,7 @@
 """This is a program to find and replace a given word in a text file"""
 filename=input('Enter filename: ')#filename
-fword=input('word to find: ')#word to find
-sword=input('word to replace: ')#word to replace
+fword=input(' Enter the word to find: ')#word to find
+sword=input('Enter the word to replace: ')#word to replace
 changed=0
 reallines=[]
 with open(filename,'r') as fileobject:
